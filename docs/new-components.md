@@ -158,7 +158,7 @@ Here is a minimal representation:
 type: <name of your component, such as apache, http, haproxy, postgresql>
 
 status:
-  class: <class of component, one of cmd, connector, exporter, extension, processor or receiver>
+  class: <class of component, one of cmd, connector, converter, exporter, extension, pkg, processor, provider, receiver, scraper> 
   stability:
     development: [<pick the signals supported: logs, metrics, traces. For extension, use "extension">]
   codeowners:
